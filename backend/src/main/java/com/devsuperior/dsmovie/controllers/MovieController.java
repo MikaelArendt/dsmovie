@@ -16,7 +16,7 @@ import com.devsuperior.dsmovie.services.MovieService;
 public class MovieController {
 
 	@Autowired
-	private MovieService service;
+	private MovieService service;		
 	
 	@GetMapping
 	public Page<MovieDTO> findAll(Pageable pageable){
